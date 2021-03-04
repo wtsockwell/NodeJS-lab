@@ -7,7 +7,7 @@ let imagePath = path.join(__dirname, './downloads/')
 reqprom("https://reddit.com/r/popular.json")
 .then((body) => {
     JSON.parse(body).data.children.forEach(item => {
-        if(path.extname(`${item.data.url}`) === '.jpg' || path.extname(`${item.data.url}`)==='.png'){
+        if(path.extname(`${item.data.url}`) === '.jpg' || path.extname(`${item.data.url}`)==='.png' || path.extname(`${item.data.url}`)==='.gif'){
             let id = item.data.id
             let extention = item.data.url
             console.log(extention)
