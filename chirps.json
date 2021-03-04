@@ -1,0 +1,22 @@
+[
+    {
+        "username": "Jake",
+        "text": "Node is fun"
+    },
+    {
+        "username": "Josh",
+        "text": "Node sure is a blast"
+    },
+    {
+        "username": "Garret",
+        "text": "I sure do love using Node"
+    },
+    {
+        "username": "Colin",
+        "text": "Node is weird but cool"
+    },
+    {
+        "username": "Taylor",
+        "text": "I just started Node today"
+    }
+]
